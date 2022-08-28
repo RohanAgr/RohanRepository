@@ -121,5 +121,5 @@ feed:
   posts_limit: 10 #default posts_limit: 10
   excerpt_only: true
   
-exclude:s
+exclude:
   - settings.ini
