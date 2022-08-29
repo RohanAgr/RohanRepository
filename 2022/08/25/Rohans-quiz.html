@@ -130,8 +130,9 @@ window.onload = wrap_img;
 <h2 id="Greetings,-user.">Greetings, user.<a class="anchor-link" href="#Greetings,-user."> </a></h2><blockquote><p>Welcome to this quiz. How many can you get right?</p>
 <ul>
 <li>This quiz will have 5 questions</li>
-<li>This might be easy or hard for you, depending on how good you are at coding. </li>
-<li>This quiz covers everything in python</li>
+<li>What do you know about the MLB?</li>
+<li>Be sure to capitalize the first letter of each word</li>
+<li>Good luck!</li>
 </ul>
 </blockquote>
 
@@ -162,41 +163,41 @@ window.onload = wrap_img;
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You will be asked &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;questions. &quot;</span><span class="p">)</span>
 <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;Are you ready to take the test? &quot;</span><span class="p">)</span>
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What command is used to display text in python?&quot;</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;print&quot;</span><span class="p">:</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What award is given to the best pitcher in a season?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;Cy Young&quot;</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot;is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot;is incorrect, the correct answer was print&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot;is incorrect, the correct answer was Cy Young&quot;</span><span class="p">)</span>
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What is the term for a loop inside a loop?&quot;</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;nested loop&quot;</span><span class="p">:</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;which team did Manny Machado play for before signing with the Padres?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;Dodgers&quot;</span><span class="p">:</span>
     <span class="nb">print</span> <span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot;is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, the correct answer is nested or nested loop.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, the correct answer is Dodgers.&quot;</span><span class="p">)</span>
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What might you do if you wanted to use certain libraries for certain purposes?&quot;</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;import&quot;</span><span class="p">:</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;Complete the name: ____ Red Sox&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;Boston&quot;</span><span class="p">:</span>
     <span class="nb">print</span> <span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span> <span class="p">(</span> <span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, import is the right answer.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span> <span class="p">(</span> <span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, Boston is the right answer.&quot;</span><span class="p">)</span>
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What type of programming language is python?&quot;</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;open source&quot;</span><span class="p">:</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;How many cities have 2 baseball teams?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;3&quot;</span><span class="p">:</span>
     <span class="nb">print</span> <span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot;is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span> <span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, the correct answer is open source.&quot;</span><span class="p">)</span> 
+    <span class="nb">print</span><span class="p">(</span> <span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, the correct answer is 3.&quot;</span><span class="p">)</span> 
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What is the file type for a jupyter notebook?&quot;</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;ipynb&quot;</span><span class="p">:</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What do you call a home run with the bases loaded?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;Grand Slam&quot;</span><span class="p">:</span>
     <span class="nb">print</span> <span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, the correct answer is ipynb&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot; you scored &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; for a score of &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">correct</span><span class="o">/</span><span class="n">questions</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;%&quot;</span> <span class="p">)</span><span class="n">k</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect, the correct answer is Grand Slam&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot; you scored &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; for a score of &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">correct</span><span class="o">/</span><span class="n">questions</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;%&quot;</span> <span class="p">)</span>
 </pre></div>
 
     </div>
