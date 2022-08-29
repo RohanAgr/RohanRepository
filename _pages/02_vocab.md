@@ -1,3 +1,9 @@
+---
+layout: page
+title: Vocabulary
+permalink: /vocabulary/
+---
+
 # Vocabulary
 
 | Term| Description |
