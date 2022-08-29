@@ -4,8 +4,6 @@ title: Vocabulary
 permalink: /vocabulary/
 ---
 
-# Vocabulary
-
 | Term| Description |
 |---- | ------------|
 |Github | A version-control platform for software development and version control using git. |
