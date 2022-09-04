@@ -100,7 +100,7 @@ plugins:
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/hacker
+remote_theme: jekyll-theme-hacker 
 titles_from_headings:
   enabled:     true
   strip_title: true
