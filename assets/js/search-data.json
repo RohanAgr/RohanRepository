@@ -3,9 +3,9 @@
     
         "post0": {
             "title": "Themeblogpost",
-            "content": "| .",
-            "url": "https://rohanagr.github.io/RohanRepository/posts/2022/09/04/ThemeBlogPost.html",
-            "relUrl": "/posts/2022/09/04/ThemeBlogPost.html",
+            "content": "categories: [posts] . I used the hacker theme for my fastpages. I thought it looked good and the color contrast was quite nice. | However, I could not locate the menus, about me, and the other tabs which was there in the default theme. | .",
+            "url": "https://rohanagr.github.io/RohanRepository/2022/09/04/ThemeBlogPost.html",
+            "relUrl": "/2022/09/04/ThemeBlogPost.html",
             "date": " • Sep 4, 2022"
         }
         
@@ -113,7 +113,7 @@
     
         ,"post10": {
             "title": "Title",
-            "content": ". categories: [notebooks] . My Jupyter Notebook . &quot;Here is a line of code which will print Hello World!&quot; . print (&quot;Hello World!&quot;) print (&quot;My name is Rohan&quot;) . Hello World! My name is Rohan .",
+            "content": "toc: true | branch: master | badges: true | comments: true | categories: [Notebooks] # My Jupyter Notebook&quot;Here is a line of code which will print Hello World!&quot; . | . print (&quot;Hello World!&quot;) print (&quot;My name is Rohan&quot;) . Hello World! My name is Rohan .",
             "url": "https://rohanagr.github.io/RohanRepository/2022/08/21/MyFirstNotebook.html",
             "relUrl": "/2022/08/21/MyFirstNotebook.html",
             "date": " • Aug 21, 2022"
