@@ -1,6 +1,7 @@
 ---
 title: Outline for Performance Task
-tags: [posts]
+categories: [posts]
+toc: true 
 layout: post
 ---
 # This is going to be a monumental task XD
@@ -13,4 +14,5 @@ layout: post
 - one code cell stores data, and the other code cell outputs the data
 - we can classify and sort each input in the database (e.g. date of birth, height, other statistics)
 - Me and Dillon might split this task into smaller problems, and we will specify who wrote which code cell.
-- We can take inspiration from the Data Abstraction week and expand on it. 
+- We can take inspiration from the Data Abstraction week and expand on it.
+- Everything here is subject to change in case an idea doesn't work  

@@ -1,9 +1,10 @@
 ---
 title: App and Quiz Blog
-tags: [posts]
+categories: [posts]
+toc: true 
 layout: post
 ---
-# Me and Dillon Lee made an app and quiz using AppLab
+# Me and Dillon made an app and quiz using AppLab
 - it was fun lol xd
 - We were introduced to JavaScript and used it in our app through block codes. We were able to see the plaintext when we changed a few settings.
 - Our quiz was about Major League Baseball (again) and our app consisted of a drop down menu which gave a brief overview about the major wars fought by the West in the 20th century (World War I, World War II, Cold War)
