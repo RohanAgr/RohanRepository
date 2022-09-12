@@ -1,8 +1,9 @@
 ---
-title: Outline for Performance Task
-categories: [posts]
-toc: true 
+toc: true
 layout: post
+description:
+categories: [posts]
+title: CB Performance Task Planning 
 ---
 # This is going to be a monumental task XD
 > Me and Dillon will be sharing a common code, and then we deviate based on whatever theme we want to add

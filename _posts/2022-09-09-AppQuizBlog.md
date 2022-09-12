@@ -1,8 +1,9 @@
 ---
-title: App and Quiz Blog
-categories: [posts]
-toc: true 
+toc: true
 layout: post
+description:
+categories: [posts]
+title: CB Performance Task Planning 
 ---
 # Me and Dillon made an app and quiz using AppLab
 - it was fun lol xd
