@@ -3,7 +3,7 @@ toc: true
 layout: post
 description:
 categories: [posts]
-title: CB Performance Task Planning 
+title: Quiz and App using AppLab
 ---
 # Me and Dillon made an app and quiz using AppLab
 - it was fun lol xd
