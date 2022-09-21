@@ -18,3 +18,4 @@ title: Stress Video Blog
 
 
 ### Group Member Takeaways
+- Derek said that 
