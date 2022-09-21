@@ -10,4 +10,11 @@ title: Stress Video Blog
 
 - A college professor surveyed Yale University's student body and noticed that a lot of people were stressed
 - It affected their learning environment and negatively affected the student body and endeavors of Yale University
-- 
+
+
+
+### What I learned
+
+
+
+### Group Member Takeaways
