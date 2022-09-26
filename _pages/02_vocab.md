@@ -21,3 +21,12 @@ permalink: /vocabulary/
 | Pull | a request of data from one server to the other |
 | Bash | A command line interpreter commonly used in the shell |
 | Bin  | Compressed binary files used by computer applications | 
+### Other Vocabulary
+| Review Ticket | A ticket where every group member puts their issues (work from the week) for teacher review. It consists of each member's work and peer evaluation. |
+| Creativity | Presents itself in how a person or group approaches a certain problems and tasks. It is often unique and has features which others may find hard to replicate. |
+| Critical Thinking | A person or group thinks hard about a problem and offers unique approaches while considering all the aspects. Always looks for improvement opportunities, and always welcome challenges. |
+| Communication | Methods which groups use to convey information to each other. Crucial to getting complex tasks done. |
+| Collaboration Through Leadership | Leaders can facilitate conversations and foster the essence of collaboration by taking charge, managing conflicts, groups, and initiating new ideas. | 
+| Collaboration Through Teamwork | Two or more group members communicate and incorporate the above vocabulary terms to tackle a large problem or project. If done right, collaboration can elevate the spirit and creates a domino effect in the right direction. |
+| Research | Process of searching the internet for information. It is used to gain useful insights and other pieces of information which a group may not posses. |
+| Technical | The process of being current with the latest updates of anything, including technologies and other features. |
