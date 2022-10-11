@@ -509,23 +509,21 @@ window.onload = wrap_img;
          <span class="s2">&quot;drink&quot;</span><span class="p">:</span> <span class="mf">0.99</span><span class="p">}</span>
 <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello! Please review our menu and type what you would like to order&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello! Welcome to me restaurant.&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Menu:&quot;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">menu</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;  $&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">))</span> <span class="c1"># shows the name of the item on the menu followed by its price</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;  $&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">))</span>
 
 <span class="n">order</span> <span class="o">=</span> <span class="kc">True</span>
-<span class="k">while</span> <span class="n">order</span><span class="p">:</span>   <span class="c1"># user will be asked for their order multiple times</span>
-    <span class="n">item</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;choose your order&quot;</span><span class="p">)</span>
+<span class="k">while</span> <span class="n">order</span><span class="p">:</span>   
+    <span class="n">item</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;order here:&quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">menu</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span> 
         <span class="n">total</span><span class="o">+=</span> <span class="n">menu</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;you ordered:&quot;</span><span class="p">,</span> <span class="n">item</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;your total is now:&quot;</span><span class="p">,</span> <span class="n">total</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>           <span class="c1"># if the person types something in wrong or finishes their order, it stops</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;grand total:&quot;</span><span class="p">,</span> <span class="n">total</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>           
         <span class="n">order</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your Total is:&quot;</span><span class="p">,</span> <span class="s2">&quot;$&quot;</span><span class="p">,</span><span class="n">total</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Enjoy!&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your Total is:&quot;</span><span class="p">,</span><span class="n">total</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -538,12 +536,12 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello! Please review our menu and type what you would like to order
+<pre>Hello! Welcome to me restaurant.
 Menu:
 burger  $3.99
 fries  $2.99
 drink  $0.99
-Your Total is: $ 0
+Your Total is: 0
 Enjoy!
 </pre>
 </div>
