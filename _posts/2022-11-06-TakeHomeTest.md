@@ -1,8 +1,6 @@
 ---
 toc: true
 layout: post
-description:
-categories: [posts]
 title: Finals 
 ---
 
