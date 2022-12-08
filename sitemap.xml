@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://rohanagr.github.io/RohanRepository/jupyter/2020/02/20/test.html</loc>
-<lastmod>2020-02-20T00:00:00-06:00</lastmod>
-</url>
-<url>
 <loc>https://rohanagr.github.io/RohanRepository/2022/08/21/MyFirstNotebook.html</loc>
 <lastmod>2022-08-21T00:00:00-05:00</lastmod>
 </url>
@@ -113,7 +109,23 @@
 <lastmod>2022-11-18T00:00:00-06:00</lastmod>
 </url>
 <url>
+<loc>https://rohanagr.github.io/RohanRepository/homework/</loc>
+<lastmod>2022-11-26T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://rohanagr.github.io/RohanRepository/2022/11/29/Developing-Algorithms.html</loc>
+<lastmod>2022-11-29T00:00:00-06:00</lastmod>
+</url>
+<url>
 <loc>https://rohanagr.github.io/RohanRepository/2022/11/29/GroupTwoBlog.html</loc>
+<lastmod>2022-11-29T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://rohanagr.github.io/RohanRepository/2022/11/29/developing-algorithms-js.html</loc>
+<lastmod>2022-11-29T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://rohanagr.github.io/RohanRepository/2022/11/29/searching-introduction.ipynb</loc>
 <lastmod>2022-11-29T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -121,8 +133,12 @@
 <lastmod>2022-11-30T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://rohanagr.github.io/RohanRepository/2022/12/04/Quiz2.html</loc>
-<lastmod>2022-12-04T00:00:00-06:00</lastmod>
+<loc>https://rohanagr.github.io/RohanRepository/2022/11/30/homework.ipynb</loc>
+<lastmod>2022-11-30T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://rohanagr.github.io/RohanRepository/2022/12/07/Quiz2.html</loc>
+<lastmod>2022-12-07T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://rohanagr.github.io/RohanRepository/about/</loc>
@@ -143,6 +159,9 @@
 <loc>https://rohanagr.github.io/RohanRepository/JavaScript</loc>
 </url>
 <url>
+<loc>https://rohanagr.github.io/RohanRepository/algorithmvocabulary/</loc>
+</url>
+<url>
 <loc>https://rohanagr.github.io/RohanRepository/</loc>
 </url>
 <url>
@@ -153,6 +172,6 @@
 </url>
 <url>
 <loc>https://rohanagr.github.io/RohanRepository/_pages/07_Finals.html</loc>
-<lastmod>2022-12-05T15:31:48-06:00</lastmod>
+<lastmod>2022-12-08T15:57:21-06:00</lastmod>
 </url>
 </urlset>

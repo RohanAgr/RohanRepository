@@ -65,7 +65,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/RohanRepository/about/">About Me</a><a class="page-link" href="/RohanRepository/vocabulary/">Vocabulary</a><a class="page-link" href="/RohanRepository/notes/">Other Class Notes</a><a class="page-link" href="/RohanRepository/categories/">Tags</a><a class="page-link" href="/RohanRepository/search/">Search</a><a class="page-link" href="/RohanRepository/JavaScript">JavaScript</a></div>
+        <div class="trigger"><a class="page-link" href="/RohanRepository/about/">About Me</a><a class="page-link" href="/RohanRepository/vocabulary/">Vocabulary</a><a class="page-link" href="/RohanRepository/notes/">Other Class Notes</a><a class="page-link" href="/RohanRepository/categories/">Tags</a><a class="page-link" href="/RohanRepository/search/">Search</a><a class="page-link" href="/RohanRepository/JavaScript">JavaScript</a><a class="page-link" href="/RohanRepository/algorithmvocabulary/">Trimester 2 Algorithm Vocabulary</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -136,6 +136,25 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>the symbol for exponent is **  </li>
+<li>the symbol for addition is +  </li>
+<li>the symbol for subtraction is - </li>
+<li>the symbol for multiplication is * </li>
+<li>the symbol for division is /  </li>
+<li>the symbol for modulus is % </li>
+<li>an algorithm is a sequence of steps to perform a specific task</li>
+</ul>
+<p>Index is a number representing a position, like a character's position in a string or a string's position in a list.<br />
+Concatenation is a series of interconnected strings
+Length is number of characters in a certain string<br />
+A substring is a segment of a string</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -143,9 +162,9 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="nb">bin</span><span class="p">):</span> <span class="c1"># declare this variable and function</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="nb">bin</span><span class="p">):</span> <span class="c1"># declare the convert function, named bin</span>
     <span class="n">result</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="c1"># variable which will be outputted later</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="mi">7</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">7</span> <span class="c1"># declaring i</span>
 
     <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
         <span class="k">if</span> <span class="nb">bin</span> <span class="o">%</span> <span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">i</span><span class="p">)</span> <span class="o">==</span> <span class="nb">bin</span><span class="p">:</span>  <span class="c1"># here we run some while and if loops in order to classify each number as even or odd, and we assign 0 and 1 accordingly.</span>
@@ -153,8 +172,8 @@ window.onload = wrap_img;
             <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">+</span> <span class="s2">&quot;1&quot;</span>
-            <span class="nb">bin</span> <span class="o">-=</span> <span class="mi">2</span><span class="o">**</span><span class="n">i</span>
-            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="nb">bin</span> <span class="o">-=</span> <span class="mi">2</span><span class="o">**</span><span class="n">i</span> <span class="c1">## assignment operators</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span> 
 
     <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="c1"># final print of the result, in binary</span>
 
