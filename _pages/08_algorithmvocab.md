@@ -17,4 +17,12 @@ permalink: /algorithmvocabulary/
 | Concatenation | Combining multiple strings |
 | Length | Number of characters in a string |
 | Substring | Part of a string |
-| Pseudocode | Program written in plain English in order to lay out the framework of said program |
+| Pseudocode | Program written in plain English in order to lay out the framework of the program|
+| Packages | Allow a person to import methods from a library |
+| Library | Database where certain commands, executions, and other information is stored (largely in python) | 
+| Procedure | named group of programming instructions that may have parameters and return values |
+| Parameters | input values Arguments: specify the values of parameters |
+| Prodecural Abstraction | name or a process that allows for an understanding of the procedure | 
+| Boolean | True or false statement | 
+| Binary | 0s and 1s which are interpreted by the computer in order to output characters (or vice versa) | 
+| logical operators | operators used to produce boolean results | 
