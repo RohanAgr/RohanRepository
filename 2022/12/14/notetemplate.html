@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
@@ -134,13 +134,18 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="What-are-procedures?">What are procedures?<a class="anchor-link" href="#What-are-procedures?"> </a></h1><p><strong>Fill in the blanks please:</strong></p>
-<p>Procedure:</p>
-<p>Parameters:</p>
-<p>Arguments:</p>
-<p>Modularity:</p>
-<p>Procedural Abstraction:</p>
-<p>What are some other names for procedures?:</p>
-<p>Why are procedures effective?:</p>
+<p>Procedure: 
+named group of programming instructions that may have parameters and return values
+Parameters:
+input values
+Arguments:
+specify the values of parameters
+Modularity: 
+modules!
+Procedural Abstraction: 
+name pr a process that allows for an understanding of the procedure
+What are some other names for procedures?: pseudocode</p>
+<p>Why are procedures effective?:  can help simplify the code, and we know what to look for and code in the actual program</p>
 
 </div>
 </div>
@@ -158,13 +163,15 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">decimal</span> <span class="o">=</span> <span class="mi">7</span>
+<div class=" highlight hl-javascript"><pre><span></span><span class="nx">def</span> <span class="nx">BinaryConvert</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span><span class="o">:</span>
+<span class="err">##</span> <span class="nx">recursive</span> <span class="nx">code</span> 
+    <span class="k">if</span> <span class="nx">number</span> <span class="o">&gt;=</span> <span class="mf">1</span><span class="o">:</span> 
+        <span class="nx">BinaryConvert</span><span class="p">(</span><span class="nx">number</span> <span class="c1">// 2) ##based on the power of 2, it will shift the 0 or 1 right</span>
+    <span class="nx">print</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mf">2</span><span class="p">,</span> <span class="nx">end</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="err">##</span> <span class="nx">the</span> <span class="nx">end</span> <span class="kd">function</span> <span class="nx">prevents</span> <span class="nx">it</span> <span class="nx">from</span> <span class="nx">printing</span> <span class="nx">a</span> <span class="k">new</span> <span class="nx">line</span> <span class="o">--&gt;</span> <span class="nx">binary</span> <span class="nx">output</span> <span class="nx">is</span> <span class="nx">only</span> <span class="nx">one</span> <span class="nx">line</span><span class="p">.</span>
 
-<span class="k">def</span> <span class="nf">convertToBinary</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-
-
-    <span class="p">(</span><span class="n">decimal</span><span class="p">)</span> 
-<span class="nb">print</span><span class="p">()</span>
+    <span class="err">#</span> <span class="nx">Driver</span> <span class="nx">Code</span>
+<span class="nx">number</span> <span class="o">=</span> <span class="mf">31</span>
+<span class="nx">BinaryConvert</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -194,6 +201,41 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kr">const</span> <span class="nx">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1</span><span class="p">,</span> <span class="mf">2</span><span class="p">,</span> <span class="mf">3</span><span class="p">,</span> <span class="mf">4</span><span class="p">,</span> <span class="mf">5</span><span class="p">,</span> <span class="p">,</span><span class="mf">6</span><span class="p">]</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">nums</span><span class="p">)</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="nx">nums</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>NaN</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Homework/Hacks:-For-the-hw,-you-have-two-options,-easy-or-hard.-The-easy-hack-is-for-a-2.7-+-extra-work-for-the-full-3.-The-easy-hack-is-simply-creating-your-own-procedure-with-your-own-creativity.-Since-there-is-a-lot-of-leeway-for-this-one,-you-must-do-additional-work-to-get-a-3.-For-the-hard-hack,-below-is-the-start-to-a-character-to-binary-convertor.-This-is-just-a-template,-but-the-goal-is-to-translate-&quot;APCSP&quot;-into-binary.-You-can-delete-the-existing-code-if-you-want.-The-only-contraint-is-that-you-must-use-a-procedure.-Doing-this-will-get-you-a-3."><mark>Homework/Hacks</mark>: For the hw, you have two options, easy or hard. The easy hack is for a 2.7 + extra work for the full 3. The easy hack is simply creating your own procedure with your own creativity. Since there is a lot of leeway for this one, you must do additional work to get a 3. For the hard hack, below is the start to a character to binary convertor. This is just a template, but the goal is to translate "APCSP" into binary. You can delete the existing code if you want. The only contraint is that you must use a procedure. Doing this will get you a 3.<a class="anchor-link" href="#Homework/Hacks:-For-the-hw,-you-have-two-options,-easy-or-hard.-The-easy-hack-is-for-a-2.7-+-extra-work-for-the-full-3.-The-easy-hack-is-simply-creating-your-own-procedure-with-your-own-creativity.-Since-there-is-a-lot-of-leeway-for-this-one,-you-must-do-additional-work-to-get-a-3.-For-the-hard-hack,-below-is-the-start-to-a-character-to-binary-convertor.-This-is-just-a-template,-but-the-goal-is-to-translate-&quot;APCSP&quot;-into-binary.-You-can-delete-the-existing-code-if-you-want.-The-only-contraint-is-that-you-must-use-a-procedure.-Doing-this-will-get-you-a-3."> </a></h2>
@@ -207,9 +249,30 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">charToBinary</span><span class="p">(</span><span class="n">x</span><span class="p">):()</span>
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">function</span> <span class="nx">Player</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">position</span><span class="p">,</span> <span class="nx">average</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">position</span> <span class="o">=</span> <span class="nx">position</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">average</span> <span class="o">=</span> <span class="nx">average</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+<span class="p">}</span>
 
-<span class="c1"># The output shown below is the output you are supposed to get</span>
+<span class="nx">Player</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">setRole</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">role</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">Player</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toJSON</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">position</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">position</span><span class="p">,</span> <span class="nx">average</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">average</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
+    <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">manager</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Bob Melvin&quot;</span><span class="p">,</span> <span class="s2">&quot;Catcher&quot;</span><span class="p">,</span> <span class="s2">&quot;.233&quot;</span><span class="p">);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">manager</span><span class="p">);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">manager</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">());</span>
+
+<span class="nx">manager</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Manager&quot;</span><span class="p">);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">manager</span><span class="p">);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">manager</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">());</span>
 </pre></div>
 
     </div>
@@ -221,13 +284,132 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&#39;&#39;APCSP&#39;&#39; in binary is 
-[1000001, 1010000, 1000011, 1010011, 1010000]
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+evalmachine.&lt;anonymous&gt;:19
+LogItType(manager);
+^
+
+ReferenceError: LogItType is not defined
+    at evalmachine.&lt;anonymous&gt;:19:1
+    at ContextifyScript.Script.runInThisContext (vm.js:25:33)
+    at Object.runInThisContext (vm.js:97:38)
+    at run ([eval]:1020:15)
+    at onRunRequest ([eval]:864:18)
+    at onMessage ([eval]:828:13)
+    at emitTwo (events.js:106:13)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:758:12)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</pre>
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">var</span> <span class="nx">players</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Manny Machado&quot;</span><span class="p">,</span> <span class="s2">&quot;Third Base&quot;</span><span class="p">,</span> <span class="s2">&quot;.299&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Trent Grisham&quot;</span><span class="p">,</span> <span class="s2">&quot;Center Field&quot;</span><span class="p">,</span> <span class="s2">&quot;.185&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Jake Cronenworth&quot;</span><span class="p">,</span> <span class="s2">&quot;Second Base&quot;</span><span class="p">,</span> <span class="s2">&quot;.238&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Jurickson Profar&quot;</span><span class="p">,</span> <span class="s2">&quot;Left Field&quot;</span><span class="p">,</span> <span class="s2">&quot;.240&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Ha-Seong Kim&quot;</span><span class="p">,</span> <span class="s2">&quot;Shortstop&quot;</span><span class="p">,</span> <span class="s2">&quot;.252&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Brandon Drury&quot;</span><span class="p">,</span> <span class="s2">&quot;First Base&quot;</span><span class="p">,</span> <span class="s2">&quot;.226&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Jorge Alfaro&quot;</span><span class="p">,</span> <span class="s2">&quot;Catcher&quot;</span><span class="p">,</span> <span class="s2">&quot;.249&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Wil Myers&quot;</span><span class="p">,</span> <span class="s2">&quot;Right Field, First Base&quot;</span><span class="p">,</span> <span class="s2">&quot;.255&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Juan Soto&quot;</span><span class="p">,</span> <span class="s2">&quot;Right Field&quot;</span><span class="p">,</span> <span class="s2">&quot;.242&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Austin Nola&quot;</span><span class="p">,</span> <span class="s2">&quot;Catcher&quot;</span><span class="p">,</span> <span class="s2">&quot;.248&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Josh Bell&quot;</span><span class="p">,</span> <span class="s2">&quot;Designated Hitter, First Base&quot;</span><span class="p">,</span> <span class="s2">&quot;.191&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Player</span><span class="p">(</span><span class="s2">&quot;Jose Azocar&quot;</span><span class="p">,</span> <span class="s2">&quot;Outfield&quot;</span><span class="p">,</span> <span class="s2">&quot;.272&quot;</span><span class="p">),</span> 
+<span class="p">];</span>
+
+<span class="kd">function</span> <span class="nx">Padres</span><span class="p">(</span><span class="nx">manager</span><span class="p">,</span> <span class="nx">players</span><span class="p">){</span>
+
+    <span class="nx">manager</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Manager&quot;</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">manager</span> <span class="o">=</span> <span class="nx">manager</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">padres</span> <span class="o">=</span> <span class="p">[</span><span class="nx">manager</span><span class="p">];</span>
+    
+    <span class="k">this</span><span class="p">.</span><span class="nx">players</span> <span class="o">=</span> <span class="nx">players</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">players</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">player</span> <span class="p">=&gt;</span> <span class="p">{</span> <span class="nx">player</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Player&quot;</span><span class="p">);</span> <span class="k">this</span><span class="p">.</span><span class="nx">padres</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">player</span><span class="p">);</span> <span class="p">});</span>
+
+    <span class="k">this</span><span class="p">.</span><span class="nx">json</span> <span class="o">=</span> <span class="p">[];</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">padres</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">player</span> <span class="p">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">json</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">player</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">()));</span>
+<span class="p">}</span>
+
+<span class="nx">sd2022</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Padres</span><span class="p">(</span><span class="nx">manager</span><span class="p">,</span> <span class="nx">players</span><span class="p">);</span>
+
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">sd2022</span><span class="p">.</span><span class="nx">padres</span><span class="p">);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">sd2022</span><span class="p">.</span><span class="nx">padres</span><span class="p">[</span><span class="mf">0</span><span class="p">].</span><span class="nx">name</span><span class="p">);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">sd2022</span><span class="p">.</span><span class="nx">json</span><span class="p">[</span><span class="mf">0</span><span class="p">]);</span>
+<span class="nx">LogItType</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">sd2022</span><span class="p">.</span><span class="nx">json</span><span class="p">[</span><span class="mf">0</span><span class="p">]));</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="nx">Padres</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">_toHtml</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">style</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="s2">&quot;display:inline-block;&quot;</span> <span class="o">+</span>
+        <span class="s2">&quot;border: 2px solid grey;&quot;</span> <span class="o">+</span>
+        <span class="s2">&quot;box-shadow: 0.8em 0.4em 0.4em grey;&quot;</span>
+    <span class="p">);</span>
+
+    <span class="kd">var</span> <span class="nx">body</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Name&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Position&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Batting Average&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Role&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/tr&gt;&quot;</span><span class="p">;</span>
+    
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">sd2022</span><span class="p">.</span><span class="nx">padres</span><span class="p">)</span> <span class="p">{</span>
+        
+        <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+        
+        <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+        <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">position</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+        <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">average</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+        <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">role</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+        
+        <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+      <span class="p">}</span>
+    
+       
+      <span class="k">return</span> <span class="p">(</span>
+        <span class="s2">&quot;&lt;div style=&#39;&quot;</span> <span class="o">+</span> <span class="nx">style</span> <span class="o">+</span> <span class="s2">&quot;&#39;&gt;&quot;</span> <span class="o">+</span>
+          <span class="s2">&quot;&lt;table&gt;&quot;</span> <span class="o">+</span>
+            <span class="nx">body</span> <span class="o">+</span>
+          <span class="s2">&quot;&lt;/table&gt;&quot;</span> <span class="o">+</span>
+        <span class="s2">&quot;&lt;/div&gt;&quot;</span>
+      <span class="p">);</span>
+    
+    <span class="p">};</span>
+    
+    
+    <span class="nx">$$</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">sd2022</span><span class="p">.</span><span class="nx">_toHtml</span><span class="p">());</span>
+</pre></div>
+
+    </div>
 </div>
 </div>
 
