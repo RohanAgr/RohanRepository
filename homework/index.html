@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      6 min read
     
 </span></p>
 
@@ -118,7 +118,6 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#Overview-and-Notes:--3.10---Lists">Overview and Notes:  3.10 - Lists </a></li>
-<li class="toc-entry toc-h2"><a href="#Overview-and-Notes:--3.8---Iteration">Overview and Notes:  3.8 - Iteration </a></li>
 <li class="toc-entry toc-h2"><a href="#Homework-Assignment">Homework Assignment </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Hacks">Hacks </a></li>
@@ -150,6 +149,14 @@ window.onload = wrap_img;
 <li>Make sure you complete the challenge in the challenges section while we present the lesson! </li>
 </ul>
 <p>Add your <mark>OWN</mark> Notes for 3.10 here:</p>
+<ul>
+<li>lists help organize and collect data in a program</li>
+<li>we can locate them through indexing</li>
+<li>we can add, remove, or change the location of a certain item in the list</li>
+<li>ITERATIONS: repetition of a function</li>
+<li>most commonly done through loops (for, while, if...)</li>
+<li>Analogy: iterations and loops --&gt; bread and butter</li>
+</ul>
 <p>Fill out the empty boxes:</p>
 <table>
 <thead>
@@ -204,17 +211,6 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Overview-and-Notes:--3.8---Iteration">
-<a class="anchor" href="#Overview-and-Notes:--3.8---Iteration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview and Notes:  3.8 - Iteration<a class="anchor-link" href="#Overview-and-Notes:--3.8---Iteration"> </a>
-</h2>
-<p>Add your <mark>OWN</mark> Notes for 3.8 here:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Homework-Assignment">
 <a class="anchor" href="#Homework-Assignment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework Assignment<a class="anchor-link" href="#Homework-Assignment"> </a>
 </h2>
@@ -232,21 +228,82 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">questions</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">"What wpuld you call something like aList?"</span>
-    <span class="s2">"What syntax do you need to include values into a list?"</span>
-    <span class="s2">"What does aList.pop do?"</span>
-    <span class="s2">"Which of these definitions best defines indexing?"</span>
-<span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">q1</span> <span class="o">=</span> <span class="s2">"""Which team traded Fernando Tatis Jr. to the Padres?</span>
+<span class="s2">a. Boston Red Sox</span>
+<span class="s2">b. Chicago White Sox</span>
+<span class="s2">c. Cincinnati Reds</span>
+<span class="s2">d. Seattle Mariners"""</span>
 
-<span class="k">def</span> <span class="nf">questionloop</span><span class="p">():</span>
-    <span class="k">pass</span>
-    <span class="c1">#make an iterative function to ask the questions</span>
-    <span class="c1">#this can be any loop you want as long as it works!</span>
+<span class="n">q2</span> <span class="o">=</span> <span class="s2">"""Which team won the NL West title in 2021?</span>
+<span class="s2">a. Los Angeles Dodgers</span>
+<span class="s2">b. San Diego Padres</span>
+<span class="s2">c. San Francisco Giants</span>
+<span class="s2">d. Arizona Diamondbacks"""</span>
 
-<span class="k">def</span> <span class="nf">answercheck</span><span class="p">():</span>
-    <span class="k">pass</span>
-    <span class="c1">#make a function to check if the answer was correct or not</span>
+<span class="n">q3</span> <span class="o">=</span> <span class="s2">"""Who hit the walk-off home run against the Cardinals which sent the Dodgers in the NLDS?</span>
+<span class="s2">a. Chris Taylor</span>
+<span class="s2">b. Trea Turner</span>
+<span class="s2">c. Mookie Betts</span>
+<span class="s2">d. Justin Turner"""</span>
+
+<span class="n">q4</span> <span class="o">=</span> <span class="s2">"""Name the two teams in the 2019 World Series.</span>
+<span class="s2">a. New York Yankees, Los Angeles Dodgers</span>
+<span class="s2">b. Houston Astros, San Francisco Giants</span>
+<span class="s2">c. Washington Nationals, Tampa Bay Rays</span>
+<span class="s2">d. Houston Astros, Washington Nationals"""</span>
+
+<span class="n">q5</span> <span class="o">=</span> <span class="s2">"""When did Manny Machado and Fernando Tatis Jr. make their Padres debut?</span>
+<span class="s2">a. 2018</span>
+<span class="s2">b. 2019</span>
+<span class="s2">c. 2020</span>
+<span class="s2">d. 2021"""</span>
+
+<span class="n">q6</span> <span class="o">=</span> <span class="s2">"""Name the stadium of the Boston Red Sox.</span>
+<span class="s2">a. Fenway Park</span>
+<span class="s2">b. T-Mobile Park</span>
+<span class="s2">c. Minute-Maid park</span>
+<span class="s2">d. The Great American Ballpark"""</span>
+
+<span class="n">q7</span> <span class="o">=</span> <span class="s2">"""Who won the 2018 AL Cy Young Award?</span>
+<span class="s2">a. Justin Verlander</span>
+<span class="s2">b. Patrick Corbin</span>
+<span class="s2">c. Clayton Kershaw</span>
+<span class="s2">d. Blake Snell"""</span>
+
+<span class="n">q8</span> <span class="o">=</span> <span class="s2">"""In 2016, the Chicago Cubs won the World Series after how many years?</span>
+<span class="s2">a. 56</span>
+<span class="s2">b. 108</span>
+<span class="s2">c. 119</span>
+<span class="s2">d. 65"""</span>
+
+<span class="n">q9</span> <span class="o">=</span> <span class="s2">"""Which league division are the New York Yankees in?</span>
+<span class="s2">a. AL Central</span>
+<span class="s2">b. NL East</span>
+<span class="s2">c. NL West</span>
+<span class="s2">d. AL East"""</span>
+
+<span class="n">q10</span> <span class="o">=</span> <span class="s2">"""Which team did Brandon Drury play for?</span>
+<span class="s2">a. San Diego Padres</span>
+<span class="s2">b. New York Mets</span>
+<span class="s2">c. Toronto Blue Jays</span>
+<span class="s2">d. Arizona Diamondbacks</span>
+<span class="s2">e. All of the above"""</span>
+
+<span class="n">questions</span> <span class="o">=</span> <span class="p">{</span><span class="n">q1</span><span class="p">:</span> <span class="s2">"b"</span><span class="p">,</span> <span class="n">q2</span><span class="p">:</span> <span class="s2">"c"</span><span class="p">,</span> <span class="n">q3</span><span class="p">:</span> <span class="s2">"a"</span><span class="p">,</span> <span class="n">q4</span><span class="p">:</span> <span class="s2">"d"</span><span class="p">,</span> <span class="n">q5</span><span class="p">:</span> <span class="s2">"b"</span><span class="p">,</span> <span class="n">q6</span><span class="p">:</span> <span class="s2">"a"</span><span class="p">,</span> <span class="n">q7</span><span class="p">:</span> <span class="s2">"d"</span><span class="p">,</span> <span class="n">q8</span><span class="p">:</span> <span class="s2">"b"</span><span class="p">,</span> <span class="n">q9</span><span class="p">:</span> <span class="s2">"d"</span><span class="p">,</span> <span class="n">q10</span><span class="p">:</span> <span class="s2">"e"</span> <span class="p">}</span>
+
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter your name: "</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="s2">"how many can you get right?"</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">questions</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Choose the answer which you think is right."</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ans</span> <span class="o">==</span> <span class="n">questions</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"correct!"</span><span class="p">)</span>
+        <span class="n">score</span> <span class="o">=</span> <span class="n">score</span><span class="o">+</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"sorry, that was incorrect."</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Your final score is "</span><span class="p">,</span><span class="n">score</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -368,16 +425,50 @@ artichokes
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binarylist</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s2">"01001001"</span><span class="p">,</span> <span class="s2">"10101010"</span><span class="p">,</span> <span class="s2">"10010110"</span><span class="p">,</span> <span class="s2">"00110111"</span><span class="p">,</span> <span class="s2">"11101100"</span><span class="p">,</span> <span class="s2">"11010001"</span><span class="p">,</span> <span class="s2">"10000001"</span>
 <span class="p">]</span>
-
+<span class="n">decimalist</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">def</span> <span class="nf">binary_convert</span><span class="p">(</span><span class="n">binary</span><span class="p">):</span>
-    <span class="k">pass</span>    
-    <span class="n">binarylist</span> <span class="o">=</span> binarytotext<span class="o">?</span>
-    <span class="c1">#afterward, get rid of the values that are greater than 100 in decimal</span>
+    <span class="n">decimal</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">binary</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">decimal</span> <span class="o">+=</span> <span class="mi">2</span><span class="o">**</span><span class="n">i</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">continue</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">continue</span>
+<span class="n">decimalist</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">decimal</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">binarylist</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">:</span>
+    <span class="n">binarylist</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
 <span class="c1">#when done, print the results</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2022-11-26-listanditerationhomework.ipynb Cell 9</span> in <span class="ansi-cyan-fg">&lt;cell line: 16&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2022-11-26-listanditerationhomework.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D?line=13'&gt;14&lt;/a&gt;</span>             i -= 1
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2022-11-26-listanditerationhomework.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D?line=14'&gt;15&lt;/a&gt;</span>             continue
+<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2022-11-26-listanditerationhomework.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D?line=15'&gt;16&lt;/a&gt;</span> decimalist.append(decimal)
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2022-11-26-listanditerationhomework.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D?line=17'&gt;18&lt;/a&gt;</span> if (binarylist) &lt; 100:
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2022-11-26-listanditerationhomework.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D?line=18'&gt;19&lt;/a&gt;</span>     binarylist.pop(i)
+
+<span class="ansi-red-fg">NameError</span>: name 'decimal' is not defined</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -391,7 +482,11 @@ artichokes
 <a class="anchor" href="#Struggles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Struggles<a class="anchor-link" href="#Struggles"> </a>
 </h2>
 <ul>
-<li>I could not figure out the right command to convert the thing </li>
+<li>There were a few problems which I encountered when it came to naming the lists and using them in the right manner</li>
+<li>How to properly use for loops</li>
+<li>When I looked at other people's code there was a learning opportunity: </li>
+<li>I noticed that there was a new list for the decimal values. I then saw that there was another for loop running for the original list, and that would convert it to a decimal.</li>
+<li>if the decimal was over 100, that specific value was thrown out.</li>
 </ul>
 
 </div>
