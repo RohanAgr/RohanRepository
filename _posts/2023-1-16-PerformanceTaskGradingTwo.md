@@ -47,3 +47,49 @@ title: Performance Tasks 3-6 Grading
 | Procedural Abstraction | 1 | The student does explain the procedure, and lists the parameters which the code fulfills. | 
 | Algorithm Implementation | 1 | There is an algorithm called "check answer" with a series of if / then statements. | 
 | Testing | 1 | There are two calls utilized, and the implementations and desired results are shown. | 
+
+# Performance Task 7
+
+| Category | Points Awarded | Explanation | 
+| -------- | -------------- | ----------- |
+| Program Purpose and Function | 1 | The student gives the purpose of the program, and it works as per the video. | 
+| Data Abstraction | 0 | The student met only 2 of the three required criteria for data abstraction. The 2nd code segment does not show the data being accessed from the list. | 
+| Managing Complexity | 0 | The lists and correspondants could have easily been written in another way. | 
+| Procedural Abstraction | 0 | The student does not mention how the procedures contributes to the overall program. | 
+| Algorithm Implementation | 1 | The student uses an algorithm and uses sequencing, iteration, and selection to execute the program. | 
+| Testing | 1 | Two calls are used, and the student explains the result and the intentions of both the calls. | 
+
+# Performance Task 8
+
+
+| Category | Points Awarded | Explanation | 
+| -------- | -------------- | ----------- |
+| Program Purpose and Function | 1 | The student gives the purpose of the program, and it works as per the video. | 
+| Data Abstraction | 1 | There are lists being used in the program, and other code segments are properly showing that list in use. | 
+| Managing Complexity | 1 | The student mentions the effectiveness of the list, and the consequences of not using one. | 
+| Procedural Abstraction | 1 | The student clearly mentions what procedure they are using, and how it contributes to the overall code. | 
+| Algorithm Implementation | 1 | The student uses a series of loops and list optimization in order to produce an effective program. | 
+| Testing | 1 | Two calls are used, and the student explains the result and the intentions of both the calls. | 
+
+# Performance Task 9 
+
+| Category | Points Awarded | Explanation | 
+| -------- | -------------- | ----------- |
+| Program Purpose and Function | 1 | The student gives the purpose of the program, and it works as per the video. | 
+| Data Abstraction | 0 | There are lists being used in the program, and other code segments are properly showing that list in use. | 
+| Managing Complexity | 0 | The student mentions the effectiveness of the list, and the consequences of not using one. | 
+| Procedural Abstraction | 0 | The student clearly mentions what procedure they are using, and how it contributes to the overall code. | 
+| Algorithm Implementation | 0 | The student uses a series of loops and list optimization in order to produce an effective program. | 
+| Testing | 0 | Two calls are used, and the student explains the result and the intentions of both the calls. | 
+
+# Performance Task 10
+
+| Category | Points Awarded | Explanation | 
+| -------- | -------------- | ----------- |
+| Program Purpose and Function | 1 | The student gives the purpose of the program, and it works as per the video. | 
+| Data Abstraction | 1 | The description for the list is inaccurate. | 
+| Managing Complexity | 1 | The student does not mention how the code could be rewritten without the list. | 
+| Procedural Abstraction | 1 | The student clearly mentions what procedure they are using, and how it contributes to the overall code. | 
+| Algorithm Implementation | 1 | The student uses a series of loops and list optimization in order to produce an effective program. | 
+| Testing | 1 | Two calls are used, and the student explains the result and the intentions of both the calls. | 
+
