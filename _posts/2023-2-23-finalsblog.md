@@ -11,7 +11,7 @@ Overall this NATM felt more organized and less chaotic than last trimester. The 
 
 ## Evaluation 1
 
-![https://media.discordapp.net/attachments/776200516840456232/1080021545742762004/IMG_1513.jpg?width=455&height=607]
+![](https://media.discordapp.net/attachments/776200516840456232/1080021545742762004/IMG_1513.jpg?width=448&height=597)
 
 I liked the shape of the donuts and the workspace around it. It is reminiscent of an earlier computer animation project that I did in freshman year. 
 It is fairly detailed with foreground and background. 
@@ -20,7 +20,7 @@ One thing I would have liked to see was a larger donut... I am very confused as 
 
 ## Evaluation 2
 
-![https://media.discordapp.net/attachments/776200516840456232/1080021546220916778/IMG_1514.jpg?width=455&height=607]
+![](https://media.discordapp.net/attachments/776200516840456232/1080021546220916778/IMG_1514.jpg?width=455&height=607)
 
 I liked the shape of the teapot. It is very realistic, and considering that it is made from ceramic material, it feels ancient and gives a nice feeling of old.
 The realism is very prominent in the artwork.
