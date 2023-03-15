@@ -39,8 +39,7 @@ baseurl: "/RohanRepository" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    github: RohanAgr
 
 # Set this to true to get LaTeX math equation support
 use_math: 
@@ -119,7 +118,7 @@ kramdown:
 
 # to limit size of xml as it can grow quite large.
 feed:
-  posts_limit: 5 #default posts_limit: 10
+  posts_limit: 10 #default posts_limit: 10
   excerpt_only: true
   
 exclude:

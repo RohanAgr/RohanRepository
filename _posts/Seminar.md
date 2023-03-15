@@ -1,0 +1,25 @@
+---
+title: Webinar Notes
+layout: post
+---
+- A lot of these alumni are majoring in engineering, CS, and cogsci (mainly going into UC)
+- Some people did compsci at a really young age... some started from 2nd grade
+- Other majors could have CS in it
+- Profound interest in compsci
+- could be a struggle early on with github and other things...
+- **Google is your friend!**
+- Focus on your own path and your own curve... it does not matter where other people are
+- Some hard transition to college based on content taught
+- Motivation could be easily lost and a lot of people will cut corners... have the "above and beyond" mindset
+- UCSD Mech engineering: one hands on project in freshman year and one hands on experience in senior year
+- CS courses do have projects... they have PBLs and exams
+- PBL embedded in compsci in UC
+- Lot of copy pasting and coverting data types... write a script to take input and create it into another input.
+- **Coding is everywhere!**
+- Lots of data types, loops, and other statement which are handy for engineering projects
+- Jupyter notebooks are used for technical notebooks and interactive notebooks... hence coding comes in handy
+- Resumes come in clutch... applying for a job
+- Interacting with a lot of people...
+- Databases, python scripting, web development... all taught in CSP
+- AP CSA and other courses also secures someone an internship. 
+- Personal projects always help... lots of companies look for that
