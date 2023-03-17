@@ -10,15 +10,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://rohanagr.github.io/RohanRepository/2023/03/14/PandasHacks.html" />
-<meta property="og:url" content="https://rohanagr.github.io/RohanRepository/2023/03/14/PandasHacks.html" />
+<link rel="canonical" href="https://rohanagr.github.io/RohanRepository/2023/03/16/PandasHacks.html" />
+<meta property="og:url" content="https://rohanagr.github.io/RohanRepository/2023/03/16/PandasHacks.html" />
 <meta property="og:site_name" content="fastpages" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-03-14T00:00:00-05:00" />
+<meta property="article:published_time" content="2023-03-16T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Title" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-14T00:00:00-05:00","datePublished":"2023-03-14T00:00:00-05:00","description":"An easy to use blogging platform with support for Jupyter Notebooks.","headline":"Title","mainEntityOfPage":{"@type":"WebPage","@id":"https://rohanagr.github.io/RohanRepository/2023/03/14/PandasHacks.html"},"url":"https://rohanagr.github.io/RohanRepository/2023/03/14/PandasHacks.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-16T00:00:00-05:00","datePublished":"2023-03-16T00:00:00-05:00","description":"An easy to use blogging platform with support for Jupyter Notebooks.","headline":"Title","mainEntityOfPage":{"@type":"WebPage","@id":"https://rohanagr.github.io/RohanRepository/2023/03/16/PandasHacks.html"},"url":"https://rohanagr.github.io/RohanRepository/2023/03/16/PandasHacks.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/RohanRepository/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rohanagr.github.io/RohanRepository/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/RohanRepository/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,13 +73,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-14T00:00:00-05:00" itemprop="datePublished">
-        Mar 14, 2023
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-16T00:00:00-05:00" itemprop="datePublished">
+        Mar 16, 2023
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>
 
@@ -175,29 +175,17 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>               Hitter                Position         Average in 2022  \
-0       Trent Grisham            Center Field                    .184   
-1  Fernando Tatis Jr.             Right Field  DNP (.281 Avg in 2021)   
-2           Juan Soto              Left Field                    .242   
-3       Manny Machado              Third Base                    .298   
-4     Xander Bogaerts               Shortstop                    .307   
-5    Jake Cronenworth              First Base                    .239   
-6         Nelson Cruz  Designated Hitter (DH)                    .234   
-7      Matt Carpenter                 Utility                    .305   
-8        Ha-Seong Kim             Second Base                    .251   
-9         Austin Nola                 Catcher                    .251   
-
-            Home Runs in 2022           RBIs in 2022      Career OPS in 2022  
-0                          17                     53                    .625  
-1  DNP (42 home runs in 2021)  DNP (97 RBIs in 2021)  DNP (.975 OPS in 2021)  
-2                          27                     62                    .853  
-3                          32                    102                    .897  
-4                          15                     73                    .833  
-5                          17                     88                    .722  
-6                          10                     64                     651  
-7                          15                     37                   1.138  
-8                          10                     59                    .708  
-9                           4                     40                    .650  
+<pre>               Hitter                Position  Average  HomeRuns  RBI    OPS
+0       Trent Grisham            Center Field    0.184        17   53  0.625
+1  Fernando Tatis Jr.             Right Field    0.281        42   97  0.975
+2           Juan Soto              Left Field    0.242        27   62  0.853
+3       Manny Machado              Third Base    0.298        32  102  0.897
+4     Xander Bogaerts               Shortstop    0.307        15   73  0.833
+5    Jake Cronenworth              First Base    0.239        17   88  0.722
+6         Nelson Cruz  Designated Hitter (DH)    0.234        10   64  0.651
+7      Matt Carpenter                 Utility    0.305        15   37  1.138
+8        Ha-Seong Kim             Second Base    0.251        10   59  0.708
+9         Austin Nola                 Catcher    0.251         4   40  0.650
 </pre>
 </div>
 </div>
@@ -272,11 +260,8 @@ Fernando Tatis Jr.            Right Field
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">padres</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;RBI&#39;</span><span class="p">]))</span>
-
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">padres</span><span class="p">[[</span><span class="s1">&#39;Average&#39;</span><span class="p">]])</span>
 <span class="nb">print</span><span class="p">()</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">padres</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;RBI&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -288,42 +273,93 @@ Fernando Tatis Jr.            Right Field
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-3-13-PandasHacks.ipynb Cell 5</span> in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-fg">----&gt; &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-3-13-PandasHacks.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=0&#39;&gt;1&lt;/a&gt;</span> print(padres.sort_values(by=[&#39;RBI&#39;]))
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-3-13-PandasHacks.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=2&#39;&gt;3&lt;/a&gt;</span> print()
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-3-13-PandasHacks.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=4&#39;&gt;5&lt;/a&gt;</span> print(padres.sort_values(by=[&#39;RBI&#39;], ascending=False))
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>   Average
+0    0.184
+1    0.281
+2    0.242
+3    0.298
+4    0.307
+5    0.239
+6    0.234
+7    0.305
+8    0.251
+9    0.251
 
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/pandas/util/_decorators.py:311</span>, in <span class="ansi-cyan-fg">deprecate_nonkeyword_arguments.&lt;locals&gt;.decorate.&lt;locals&gt;.wrapper</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">    305</span> if len(args) &gt; num_allow_args:
-<span class="ansi-green-intense-fg ansi-bold">    306</span>     warnings.warn(
-<span class="ansi-green-intense-fg ansi-bold">    307</span>         msg.format(arguments=arguments),
-<span class="ansi-green-intense-fg ansi-bold">    308</span>         FutureWarning,
-<span class="ansi-green-intense-fg ansi-bold">    309</span>         stacklevel=stacklevel,
-<span class="ansi-green-intense-fg ansi-bold">    310</span>     )
-<span class="ansi-green-fg">--&gt; 311</span> return func(*args, **kwargs)
+</pre>
+</div>
+</div>
 
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/pandas/core/frame.py:6313</span>, in <span class="ansi-cyan-fg">DataFrame.sort_values</span><span class="ansi-blue-fg">(self, by, axis, ascending, inplace, kind, na_position, ignore_index, key)</span>
-<span class="ansi-green-intense-fg ansi-bold">   6309</span> elif len(by):
-<span class="ansi-green-intense-fg ansi-bold">   6310</span>     # len(by) == 1
-<span class="ansi-green-intense-fg ansi-bold">   6312</span>     by = by[0]
-<span class="ansi-green-fg">-&gt; 6313</span>     k = self._get_label_or_level_values(by, axis=axis)
-<span class="ansi-green-intense-fg ansi-bold">   6315</span>     # need to rewrap column in Series to apply key function
-<span class="ansi-green-intense-fg ansi-bold">   6316</span>     if key is not None:
-<span class="ansi-green-intense-fg ansi-bold">   6317</span>         # error: Incompatible types in assignment (expression has type
-<span class="ansi-green-intense-fg ansi-bold">   6318</span>         # &#34;Series&#34;, variable has type &#34;ndarray&#34;)
+</div>
+</div>
 
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/pandas/core/generic.py:1840</span>, in <span class="ansi-cyan-fg">NDFrame._get_label_or_level_values</span><span class="ansi-blue-fg">(self, key, axis)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1838</span>     values = self.axes[axis].get_level_values(key)._values
-<span class="ansi-green-intense-fg ansi-bold">   1839</span> else:
-<span class="ansi-green-fg">-&gt; 1840</span>     raise KeyError(key)
-<span class="ansi-green-intense-fg ansi-bold">   1842</span> # Check for duplicates
-<span class="ansi-green-intense-fg ansi-bold">   1843</span> if values.ndim &gt; 1:
+</div>
+    
 
-<span class="ansi-red-fg">KeyError</span>: &#39;RBI&#39;</pre>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">padres</span><span class="p">[</span><span class="n">padres</span><span class="o">.</span><span class="n">OPS</span> <span class="o">&gt;</span> <span class="o">.</span><span class="mi">750</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>               Hitter     Position  Average  HomeRuns  RBI    OPS
+1  Fernando Tatis Jr.  Right Field    0.281        42   97  0.975
+2           Juan Soto   Left Field    0.242        27   62  0.853
+3       Manny Machado   Third Base    0.298        32  102  0.897
+4     Xander Bogaerts    Shortstop    0.307        15   73  0.833
+7      Matt Carpenter      Utility    0.305        15   37  1.138
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">padres</span><span class="p">[</span><span class="n">padres</span><span class="o">.</span><span class="n">OPS</span> <span class="o">==</span> <span class="n">padres</span><span class="o">.</span><span class="n">OPS</span><span class="o">.</span><span class="n">max</span><span class="p">()])</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">padres</span><span class="p">[</span><span class="n">padres</span><span class="o">.</span><span class="n">OPS</span> <span class="o">==</span> <span class="n">padres</span><span class="o">.</span><span class="n">OPS</span><span class="o">.</span><span class="n">min</span><span class="p">()])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>           Hitter Position Average  HomeRuns  RBI    OPS
+7  Matt Carpenter  Utility    .305        15   37  1.138
+
+          Hitter      Position Average  HomeRuns  RBI    OPS
+0  Trent Grisham  Center Field    .184        17   53  0.625
+</pre>
 </div>
 </div>
 
@@ -337,7 +373,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/pandas/
 
 
 
-  </div><a class="u-url" href="/RohanRepository/2023/03/14/PandasHacks.html" hidden></a>
+  </div><a class="u-url" href="/RohanRepository/2023/03/16/PandasHacks.html" hidden></a>
 </article>
 
       </div>
