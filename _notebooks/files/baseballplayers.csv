@@ -1,8 +1,8 @@
-Pitcher,Slot,IP,W/L,ERA,K,K/9,BB,WHIP,OPP Avg
-Yu Darvish,SP1,
-Sean Manaea,SP2
-Joe Musgrove,SP3
-Mike Clevinger,SP4
+Pitcher,Slot,IP,W/L,ERA,K,BB,WHIP,OPP Avg
+Yu Darvish,SP1,194.2,16-8,3.10,197,37,0.95,.207
+Sean Manaea,SP2,158,8-9,4.96,156,50,1.30,.254
+Joe Musgrove,SP3,181.0,10-7,2.93,184,42,1.08,2.27
+Mike Clevinger,SP4,114.1,7-7,
 MacKenzie Gore,SP5 / Bullpen
 Blake Snell,SP5
 Nick Martinez,SP6 / Bullpen
