@@ -556,6 +556,20 @@ window.onload = wrap_img;
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>A new user record RohanAgr01 has been created
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     
 
@@ -593,7 +607,7 @@ window.onload = wrap_img;
     <span class="c1"># Create a cursor object to execute SQL queries</span>
     <span class="n">cursor</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
     
-    <span class="n">results</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">'SELECT * FROM player'</span><span class="p">)</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">'SELECT * FROM MLB'</span><span class="p">)</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
 
     <span class="c1"># Print the results</span>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
@@ -618,23 +632,16 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">OperationalError</span>                          Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb Cell 16</span> in <span class="ansi-cyan-fg">&lt;cell line: 21&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=17'&gt;18&lt;/a&gt;</span>     cursor.close()
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=18'&gt;19&lt;/a&gt;</span>     conn.close()
-<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=20'&gt;21&lt;/a&gt;</span> read()
-
-<span class="ansi-green-intense-fg ansi-bold">/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb Cell 16</span> in <span class="ansi-cyan-fg">read</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=4'&gt;5&lt;/a&gt;</span> # Create a cursor object to execute SQL queries
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=5'&gt;6&lt;/a&gt;</span> cursor = conn.cursor()
-<span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=7'&gt;8&lt;/a&gt;</span> results = cursor.execute('SELECT * FROM MLB').fetchall()
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=9'&gt;10&lt;/a&gt;</span> # Print the results
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/mnt/c/Users/rohan/vscode/RohanRepository/_notebooks/2023-03-16-AP-unit2-4b.ipynb#X21sdnNjb2RlLXJlbW90ZQ%3D%3D?line=10'&gt;11&lt;/a&gt;</span> if len(results) == 0:
-
-<span class="ansi-red-fg">OperationalError</span>: no such table: MLB</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(1, 'Manny Machado', 'machados13', 'Third Base', 'San Diego Padres', 13)
+(2, 'Mike Trout', 'miketrout', 'Center Field', 'Los Angeles Angels', 27)
+(3, 'Blake Snell', 'snellzilla4', 'Pitcher', 'San Diego Padres', 4)
+(4, 'Aaron Judge', 'thejudge44', 'Right Field', 'New York Yankees', 99)
+(5, 'Julio Rodriguez', 'jrodshow44', 'Center Field', 'Seattle Mariners', 44)
+(6, 'Justin Verlander', 'justinverlander', 'Pitcher', 'New York Mets', 25)
+(7, 'Bryce Harper', 'bryceharper3', 'Designated Hitter', 'Philadelphia Phillies', 3)
+(8, 'Joe Musgrove', 'mu59grove', 'Pitcher', 'San Diego Padres', 44)
+</pre>
 </div>
 </div>
 
