@@ -149,7 +149,10 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Nesting">Nesting<a class="anchor-link" href="#Nesting"> </a></h1><p>Take notes here</p>
+<h1 id="Nesting">Nesting<a class="anchor-link" href="#Nesting"> </a></h1><ul>
+<li>Many selectors may share the same element</li>
+<li>SASS nesting --&gt; style code using hierarchies</li>
+</ul>
 
 </div>
 </div>
@@ -169,38 +172,40 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="o">.</span><span class="n">a</span>
- <span class="o">.</span><span class="n">b</span> <span class="p">{</span>
-    <span class="n">color</span><span class="p">:</span> <span class="n">green</span>
-    
- <span class="p">}</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Extend/Inheritance">Extend/Inheritance<a class="anchor-link" href="#Extend/Inheritance"> </a></h1><p>What are some similarities that the buttons share? What are the differences?</p>
-<p>Take notes here</p>
+<p>.a .b {
+    color: green;</p>
+
+<pre><code>.c {
+  color: blue;
+}
+</code></pre>
+<p>}</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Mixin">Mixin<a class="anchor-link" href="#Mixin"> </a></h1><p>Take notes here</p>
+<h1 id="Extend/Inheritance">Extend/Inheritance<a class="anchor-link" href="#Extend/Inheritance"> </a></h1><p>What are some similarities that the buttons share? What are the differences?</p>
+<ul>
+<li>The shape and configuration of the buttons are the same</li>
+<li>Same width, height, and font color.</li>
+</ul>
+<h3 id="Notes">Notes<a class="anchor-link" href="#Notes"> </a></h3><ul>
+<li>Can create placeholders that can store reusable code</li>
+<li>can use syntax like %buttonlayout and style in there. This can also be used later.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Mixin">Mixin<a class="anchor-link" href="#Mixin"> </a></h1><ul>
+<li>Creates code template that can be reused</li>
+</ul>
 
 </div>
 </div>
