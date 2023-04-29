@@ -174,9 +174,9 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Data-types--there-are-8-JS-data-types.">Data types- there are 8 JS data types.<a class="anchor-link" href="#Data-types--there-are-8-JS-data-types."> </a></h3><ul>
-<li>List a few data types that you already know
-&gt;
-&gt;<blockquote>
+<li>List a few data types that you already know<blockquote><p>String
+Number
+Object</p>
 </blockquote>
 </li>
 </ul>
@@ -414,6 +414,23 @@ ReferenceError: Largenum is not defined
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="nb">Boolean</span><span class="p">(</span><span class="mf">11</span> <span class="o">&gt;</span> <span class="mf">8</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="5.-Undefined:-a-variable-without-a-value,-has-the-value-undefined/empty-values">5. Undefined: a variable without a value, has the value undefined/empty values<a class="anchor-link" href="#5.-Undefined:-a-variable-without-a-value,-has-the-value-undefined/empty-values"> </a></h4>
@@ -601,8 +618,8 @@ false
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Object</p>
 <ul>
-<li>Identify the name/keys in the object below: <strong><strong>, </strong></strong>, <em>__</em></li>
-<li>Identify the values in the object below: <strong><strong>, </strong></strong>, <em>__</em></li>
+<li>Identify the name/keys in the object below: Name, Breed, Age, Color</li>
+<li>Identify the values in the object below: Elly, Rottweiler, 4, Black</li>
 </ul>
 
 </div>
@@ -863,6 +880,37 @@ false
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">let</span> <span class="nx">today</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
+<span class="kd">let</span> <span class="nx">hourNow</span> <span class="o">=</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getHours</span><span class="p">();</span>
+<span class="kd">let</span> <span class="nx">greeting</span><span class="p">;</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">hourNow</span> <span class="o">&gt;=</span> <span class="mf">0</span> <span class="o">&amp;&amp;</span> <span class="nx">hourNow</span> <span class="o">&lt;</span> <span class="mf">12</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">greeting</span> <span class="o">=</span> <span class="s2">&quot;Good morning!&quot;</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">hourNow</span> <span class="o">&gt;=</span> <span class="mf">12</span> <span class="o">&amp;&amp;</span> <span class="nx">hourNow</span> <span class="o">&lt;</span> <span class="mf">18</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">greeting</span> <span class="o">=</span> <span class="s2">&quot;Good afternoon!&quot;</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">hourNow</span> <span class="o">&gt;=</span> <span class="mf">18</span> <span class="o">&amp;&amp;</span> <span class="nx">hourNow</span> <span class="o">&lt;</span> <span class="mf">24</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">greeting</span> <span class="o">=</span> <span class="s2">&quot;Good evening!&quot;</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="nx">greeting</span> <span class="o">=</span> <span class="s2">&quot;Hello!&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greeting</span><span class="p">);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Functions:">Functions:<a class="anchor-link" href="#Functions:"> </a></h3>
@@ -906,6 +954,18 @@ false
 <li>Complete the code portions, questions, and prompts throughout the notebook</li>
 <li>Extra Credit: code a small JavaScript game </li>
 </ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>We store the JavaScript code in a script block</li>
+<li>We can use the src = "path/file/files" command to fetch images stored in our directory</li>
+<li>OnClick is a function where a certain code segment will run if the corresponding button is clicked.</li>
+<li>We use the "script" function to write JS code.</li>
+</ul>
 
 </div>
 </div>
