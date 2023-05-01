@@ -31,3 +31,6 @@ Score: 60/66
 ![](https://media.discordapp.net/attachments/776200516840456232/1098358767223054496/image.png?width=1123&height=606)
 
 - Cloud computing has enhanced collaboration.
+![](https://media.discordapp.net/attachments/776200516840456232/1102695434637541406/image.png?width=1133&height=606)
+
+- I did not convert the binary to decimal correctly.
